@@ -1,0 +1,101 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "gregtech:item/parent/parent_computer",
+	"textures": {
+		"5": "gregtech:extra/mainframe/micro_mainframe",
+		"6": "gregtech:extra/mainframe/basic/back_mainframe",
+		"7": "gregtech:extra/mainframe/basic/front_mainframe",
+		"8": "gregtech:extra/mainframe/basic/line_mainframe",
+		"9": "gregtech:extra/mainframe/basic/side",
+		"10": "gregtech:extra/mainframe/basic/top_mainframe",
+		"particle": "gregtech:extra/mainframe/basic/side"
+	},
+	"elements": [
+		{
+			"name": "cubea",
+			"from": [3, 0, 0],
+			"to": [13, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 11, 16], "texture": "#7"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"south": {"uv": [0, 0, 11, 16], "texture": "#6"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#9"},
+				"up": {"uv": [0, 0, 11, 16], "texture": "#10"},
+				"down": {"uv": [0, 0, 11, 16], "texture": "#10"}
+			}
+		},
+		{
+			"name": "cubeb",
+			"from": [7, 0, -0.2],
+			"to": [8, 16.2, 16.2],
+			"faces": {
+				"north": {"uv": [3, 0, 4, 16.2], "texture": "#8"},
+				"east": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"south": {"uv": [3, 0, 4, 16.2], "texture": "#8"},
+				"west": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"up": {"uv": [3, 0, 4, 16.2], "texture": "#8"},
+				"down": {"uv": [3, 0, 4, 16.2], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubec",
+			"from": [8, 0, -0.2],
+			"to": [10, 1, 16.2],
+			"faces": {
+				"north": {"uv": [1, 15, 3, 16], "texture": "#8"},
+				"east": {"uv": [1, 15, 3, 16], "texture": "#8"},
+				"south": {"uv": [1, 15, 3, 16], "texture": "#8"},
+				"west": {"uv": [1, 15, 3, 16], "texture": "#8"},
+				"up": {"uv": [1, 15, 3, 16], "texture": "#8"},
+				"down": {"uv": [1, 15, 3, 16], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubed",
+			"from": [8, 15, -0.2],
+			"to": [10, 16.2, 16.2],
+			"faces": {
+				"north": {"uv": [1, 0, 3, 1], "texture": "#8"},
+				"east": {"uv": [0, 0, 16, 1.2], "rotation": 90, "texture": "#9"},
+				"south": {"uv": [3, 0, 1, 1], "texture": "#8"},
+				"west": {"uv": [0, 0, 16, 1.2], "texture": "#9"},
+				"up": {"uv": [1, 0, 3, 16], "texture": "#8"},
+				"down": {"uv": [1, 0, 2, 16], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubee",
+			"from": [10, 0, -0.2],
+			"to": [11, 16.2, 16.2],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16.2], "texture": "#8"},
+				"east": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"south": {"uv": [0, 0, 1, 16.2], "texture": "#8"},
+				"west": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"up": {"uv": [0, 0, 1, 16.2], "texture": "#8"},
+				"down": {"uv": [0, 0, 1, 16.2], "texture": "#8"}
+			}
+		},
+		{
+			"name": "cubef",
+			"from": [8, 0, -0.1],
+			"to": [10, 16, 16.1],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#5"},
+				"east": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"south": {"uv": [1, 0, 3, 16], "texture": "#8"},
+				"west": {"uv": [0, 0, 16.2, 16.2], "texture": "#9"},
+				"up": {"uv": [1, 0, 3, 16], "texture": "#8"},
+				"down": {"uv": [1, 0, 3, 16], "texture": "#8"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "circuit.mainframe.bioware",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}
